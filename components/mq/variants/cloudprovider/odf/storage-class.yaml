@@ -6,8 +6,8 @@ spec:
   queueManager:
     storage:
       queueManager:
-        class: ocs-storagecluster-ceph-rbd
+        class: ibmc-vpcblock-odf-general
       persistedData:
-        class: ocs-storagecluster-ceph-rbd
+        class: ibmc-vpcblock-odf-general
       recoveryLogs:
-        class: ocs-storagecluster-ceph-rbd
+        class: ibmc-vpcblock-odf-general
